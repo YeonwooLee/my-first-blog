@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T11:47:40.245Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="UQI2neX2ejCMFTn9sOnm" version="15.8.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-02T12:50:56.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="D9kTwlWSpmtLJ7BxpUAo" version="15.8.8" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2249" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,23 +43,23 @@
         <mxCell id="ZQJ3o1V5Gg-iwiRA9yc9-17" value="main.jsp" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-120" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZQJ3o1V5Gg-iwiRA9yc9-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZQJ3o1V5Gg-iwiRA9yc9-32" target="ZQJ3o1V5Gg-iwiRA9yc9-30">
+        <mxCell id="HprZLiQQih5zPobFNlFx-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZQJ3o1V5Gg-iwiRA9yc9-23" target="HprZLiQQih5zPobFNlFx-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZQJ3o1V5Gg-iwiRA9yc9-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZQJ3o1V5Gg-iwiRA9yc9-23" target="ZQJ3o1V5Gg-iwiRA9yc9-32">
+        <mxCell id="HprZLiQQih5zPobFNlFx-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZQJ3o1V5Gg-iwiRA9yc9-23" target="HprZLiQQih5zPobFNlFx-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZQJ3o1V5Gg-iwiRA9yc9-23" value="승률상위6개조합&lt;br&gt;LolBotDAO.wholeWinRate(6)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="ZQJ3o1V5Gg-iwiRA9yc9-23" value="승률상위6개조합" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-160" y="580" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZQJ3o1V5Gg-iwiRA9yc9-28" value="기본 상단 탭" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-340" y="580" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZQJ3o1V5Gg-iwiRA9yc9-30" value="LolBotDAO.wholeWinRate(6)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-155" y="910" width="190" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ZQJ3o1V5Gg-iwiRA9yc9-32" value="개별조합클릭" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="HprZLiQQih5zPobFNlFx-0" value="조합 가져오기" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-120" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HprZLiQQih5zPobFNlFx-2" value="조합 보여주기" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-260" y="730" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -95,7 +95,7 @@
       <root>
         <mxCell id="m0dcmaJG7GQt757oqea4-0" />
         <mxCell id="m0dcmaJG7GQt757oqea4-1" parent="m0dcmaJG7GQt757oqea4-0" />
-        <mxCell id="m0dcmaJG7GQt757oqea4-2" value="&lt;h1&gt;LolBotDAO&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center&quot;&gt;#wholeWinRate(num,pan,winrate)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center&quot;&gt;-스&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="m0dcmaJG7GQt757oqea4-1">
+        <mxCell id="m0dcmaJG7GQt757oqea4-2" value="&lt;h1&gt;LolBotDAO&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center&quot;&gt;#wholeWinRate(num,pan,winrate)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center&quot;&gt;-&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=default;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="m0dcmaJG7GQt757oqea4-1">
           <mxGeometry x="50" y="40" width="440" height="360" as="geometry" />
         </mxCell>
       </root>
